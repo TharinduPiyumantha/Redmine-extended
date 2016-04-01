@@ -1,0 +1,46 @@
+default:
+
+  plugins:
+    - image
+    - link
+    - template
+    - table
+    - print
+    - save
+    - fullpage
+    - fullscreen
+    - pagebreak
+    - textcolor
+    - noneditable
+    - emoticons
+    - insertdatetime
+    - textpattern
+    - preview
+    - tabfocus
+    - colorpicker
+    - paste
+    - media
+    - autolink
+    - spellchecker
+    - imagetools
+    - lists
+    - charmap
+    - anchor
+    - contextmenu
+    - directionality
+    - hr
+    - advlist
+    - visualchars
+    - moxiemanager
+
+  toolbar: insertfile |styleselect | bold italic | undo redo | table | textcolor fontselect fontsizeselect | emoticons | noneditable | textpattern | forecolor backcolor
+
+  templates: [ title: "L1", url : "Bidding.html"]
+
+
+
+alternate:
+  selector: textarea.table-editor
+  toolbar: styleselect | bold italic | undo redo | table
+  plugins:
+    - table
